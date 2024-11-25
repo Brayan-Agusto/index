@@ -1,0 +1,44 @@
+/* Resetting some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Styling the container */
+h1 {
+    font-size: 3rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Styling the paragraph */
+p {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    max-width: 600px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* Adding a subtle shadow and background to the body for visual contrast */
+body {
+    background: linear-gradient(to top right, #e74c3c, #f39c12);
+}
+
+/* Styling the text of the title */
+h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
